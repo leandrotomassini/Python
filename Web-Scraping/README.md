@@ -42,4 +42,22 @@ anterior fallará. Si esto sucede, intentaremos ejecutar el siguiente comando:
 
 ```pip install lxml```
 
-#### En Windows es necesario tener instalado [Visual cpp build tools](https://visualstudio.microsoft.com/es/visual-cpp-build-tools/)
+#### En Windows es necesario tener instalado [Visual cpp build tools](https://visualstudio.microsoft.com/es/visual-cpp-build-tools/)  
+
+* Selenium: Librería para sitios web dinámicos    
+
+```pip install selenium```
+
+* Pillow: Librería para parsear el HTML
+
+```pip install pillow```
+
+* Pymongo: Librería para guardar datos en MongoDB   
+
+```pip install pymongo```	
+
+* [Scrapy](https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted): Requerimientos y extracción de datos de sitios web dinámicos  
+
+```pip install scrapy```	
+
+
