@@ -60,4 +60,16 @@ anterior fallará. Si esto sucede, intentaremos ejecutar el siguiente comando:
 
 ```pip install scrapy```	
 
-
+* [¡Qué es pipe?](https://www.w3schools.com/python/python_pip.asp)
+* [Requests](https://docs.python-requests.org/en/master/)
+* [Lxml](https://lxml.de/lxmlhtml.html)
+* [Scrapy](https://docs.scrapy.org/en/0.14/intro/overview.html)
+* [Run Scrapy from a script](https://docs.scrapy.org/en/latest/topics/practices.html#run-scrapy-from-a-script)
+* [Aprender a utilizar Jupiter notebook](https://www.youtube.com/watch?v=6Vr9ZUntCyE)
+* [Selenium](https://selenium-python.readthedocs.io/index.html)
+* [Selenium web driver](https://selenium-python.readthedocs.io/installation.html#drivers)
+* []()
+* []()
+* []()
+* []()
+* []()
