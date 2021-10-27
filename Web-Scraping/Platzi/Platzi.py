@@ -1,22 +1,22 @@
-import random
-from time import sleep
-from selenium import webdriver
+from Escuela import Escuela
+from Navegador import Navegador
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.chrome.options import Options
 
 class Platzi:
 
-    def __init__(self):
-        self.escuelas = []
+    escuelas = []
+    navegador = ""
 
-    def agregarEscuelas(self):
-        driver = webdriver.Chrome()
-        driver.get('https://platzi.com')
-        driver.close()
+    def __init__(self):
+        self.navegador = Navegador()
 
     def verEscuelas(self):
+        self.obtenerEscuelas()
         for escuela in self.escuelas:
             print(escuela)
 
+    def obtenerEscuelas(self):
+        driver = self.navegador.abrirNavegador("https://platzi.com")
+        self.escuelas = driver.driver.find_elements(By.XPATH, '//p[@class="SchoolsList-school-description"]/strong')
+        print(self.escuelas)
+        driver.close()

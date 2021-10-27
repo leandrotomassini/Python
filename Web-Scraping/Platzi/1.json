@@ -1,0 +1,22 @@
+{
+    "cliente": [
+        {
+            "first_name": "Sigir",
+            "last-name": "Mannoc",
+            "age": 2,
+            "amount": 7.17
+        },
+        {
+            "first_name": "Sidsagir",
+            "last-name": "sa",
+            "age": 2,
+            "amount": 7.17
+        },
+        {
+            "first_name": "Sidsagir",
+            "last-name": "Mandsanoc",
+            "age": 2,
+            "amount": 7.17
+        }
+    ]
+}
